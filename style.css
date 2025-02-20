@@ -1,6 +1,6 @@
 /* Background untuk halaman pertama */
 body.index-page {
-    background-image: url('images/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body.index-page {
 
 /* Background untuk halaman kedua */
 body.page2-page {
-    background-image: url('images/background2.jpg');
+    background-image: url('background2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body.page2-page {
 
 /* Background untuk halaman ketiga */
 body.page3-page {
-    background-image: url('images/background3.jpg');
+    background-image: url('background3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
