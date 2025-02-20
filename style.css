@@ -1,0 +1,123 @@
+/* Background untuk halaman pertama */
+body.index-page {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background untuk halaman kedua */
+body.page2-page {
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background untuk halaman ketiga */
+body.page3-page {
+    background-image: url('images/background3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+    position: relative;
+}
+
+/* Kotak dalam kotak untuk wish */
+.wish-box {
+    background: rgba(255, 182, 193, 0.9); /* Warna pink lembut */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    
+}
+body {
+    display: flex;
+    justify-content: center; /* Center secara horizontal */
+    align-items: center; /* Center secara vertical */
+    height: 100vh; /* Pastikan tinggi ikut skrin */
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    max-width: 500px; /* Supaya tak terlalu besar */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Centerkan wish-box dalam container */
+.wish-box {
+    margin: 15px auto; /* Auto untuk center */
+    width: 80%;
+    background: rgba(255, 182, 193, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+}
+.love-emoji {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.love-emoji:active {
+    transform: scale(1.3);
+}
+/* Tetapan asas */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Page 1 - Love ❤️ */
+.page-1 {
+    background: url('images/bg1.jpg') no-repeat center center/cover;
+}
+
+/* Page 2 - Special 🎉 */
+.page-2 {
+    background: url('images/bg2.jpg') no-repeat center center/cover;
+}
+
+/* Page 3 - Fire 🔥 */
+.page-3 {
+    background: url('images/bg3.jpg') no-repeat center center/cover;
+}
+
+/* Butang */
+.btn {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
